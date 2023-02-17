@@ -1,0 +1,1 @@
+IO.puts "Hello Hector, welcome to elixir"
