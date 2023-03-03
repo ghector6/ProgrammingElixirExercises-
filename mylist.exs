@@ -14,4 +14,10 @@ defmodule MyList do
   def reduce([ head | tail ], value, func) do
     reduce(tail, func.(head,value), func)
   end
+
+  def mapsum([], _fun), do: 0
+  def mapsum([head | tail ], fun) do
+    fun.(head) + mapsum(tail, fun)
+  
+  end
 end
