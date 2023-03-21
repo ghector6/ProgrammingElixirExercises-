@@ -10,7 +10,7 @@ defmodule Chop do
 
   defp _guess(actual, guess, _low..high) when guess < actual do 
     guess(actual,guess+1..high)
-  end
+      end
 
   defp _guess(actual, guess, low.._high) when guess > actual do 
     guess(actual, low..guess-1)
