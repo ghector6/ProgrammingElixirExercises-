@@ -3,16 +3,7 @@ defmodule Sieve do
   Documentation for `Sieve`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Sieve.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def up_to(n) do
+    Enum.into 2..n, []
   end
 end
