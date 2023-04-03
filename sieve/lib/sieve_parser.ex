@@ -7,8 +7,6 @@ defmodule Sieve.Parser do
   end
 
   def up_to(n) do
-    Enum.into 2..n, []
+    Enum.into(2..n, [])
   end
-
-
 end
