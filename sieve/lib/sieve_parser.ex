@@ -1,4 +1,4 @@
-defmodule Sieve do
+defmodule Sieve.Parser do
   @moduledoc """
   Documentation for `Sieve`.
   """
